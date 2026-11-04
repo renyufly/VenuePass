@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-parent</artifactId><version>4.1.2</version></parent>
+  <groupId>com.venuepass</groupId><artifactId>venuepass</artifactId><version>1.0-SNAPSHOT</version><packaging>pom</packaging>
+  <modules><module>venuepass-common</module><module>venuepass-pojo</module><module>venuepass-server</module></modules>
+  <properties><java.version>25</java.version><mybatis.version>4.1.0</mybatis.version></properties>
+  <dependencyManagement><dependencies>
+    <dependency><groupId>org.mybatis.spring.boot</groupId><artifactId>mybatis-spring-boot-starter</artifactId><version>${mybatis.version}</version></dependency>
+  </dependencies></dependencyManagement>
+</project>
