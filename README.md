@@ -1,5 +1,7 @@
 # VenuePass
 
+API 请求、响应与手工测试步骤见 [documents/API.md](documents/API.md)。
+
 Spring Boot event booking and admission service, adapted from the three-module sky-take-out backend. It keeps the Controller–Service–MyBatis mapper layout, result envelope, Redis configuration approach, and scheduled expiry pattern. Food delivery, WeChat, OSS, shopping cart, and WebSocket code are omitted.
 
 ## Technology versions
