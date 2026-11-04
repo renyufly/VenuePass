@@ -1,6 +1,9 @@
 # VenuePass
 
+演示前端位于 [frontend](frontend/README.md)。运行 `docker compose up --build` 后打开 `http://localhost:3000`。
+
 API 请求、响应与手工测试步骤见 [documents/API.md](documents/API.md)。
+当前功能范围见 [documents/已实现功能.md](documents/已实现功能.md)。
 
 Spring Boot event booking and admission service, adapted from the three-module sky-take-out backend. It keeps the Controller–Service–MyBatis mapper layout, result envelope, Redis configuration approach, and scheduled expiry pattern. Food delivery, WeChat, OSS, shopping cart, and WebSocket code are omitted.
 
